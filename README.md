@@ -18,6 +18,12 @@ Perfect for beauty analysis, AI retouching reference, facial-proportion research
 ✔ Export the above ratios plus “long / short / standard” verdicts.  
 ✔ Auto-generate Excel report.
 
+## Note
+Please create a virtual environment before running.  
+Download the file below and place it in the same folder as the script:  
+`shape_predictor_68_face_landmarks.dat`
+
+If you meet any dependency issues, just copy my code and ask GPT—it’s faster.
 ## Required packages
 numpy==1.21.6  
 opencv-python==4.5.5.64  
@@ -58,6 +64,10 @@ tabulate
 输出 “偏长 / 偏短 / 标准”。
 
 ### ✔ 自动导出 Excel  
+
+## 注意
+运行请创建虚拟环境，下载并放到脚本同目录：（依赖方面问题直接复制我代码问gpt吧，更方便。）
+shape_predictor_68_face_landmarks.dat
 
 ## 你需要的依赖
 numpy==1.21.6
